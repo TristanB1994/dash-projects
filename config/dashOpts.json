@@ -1,0 +1,54 @@
+[
+  {
+    "name": "FLASK_ENV",
+    "value": "development"
+  },
+  {
+    "name": "FLASK_CONFIG",
+    "value": "development"
+  },
+  {
+    "name": "FLASK_APP",
+    "value": "application/wsgi.py"
+  },
+  {
+    "name": "DASH_DEBUG",
+    "value": "None"
+  },
+  {
+    "name": "DASH_UI",
+    "value": "None"
+  },
+  {
+    "name": "DASH_PROPS_CHECK",
+    "value": "None"
+  },
+  {
+    "name": "DASH_SERVE_DEV_BUNDLES",
+    "value": "None"
+  },
+  {
+    "name": "DASH_HOT_RELOAD",
+    "value": "None"
+  },
+  {
+    "name": "DASH_HOT_RELOAD_INTERVAL",
+    "value": "None"
+  },
+  {
+    "name": "DASH_HOT_RELOAD_WATCH_INTERVAL",
+    "value": "None"
+  },
+  {
+    "name": "DASH_HOT_RELOAD_MAX_RETRY",
+    "value": "None"
+  },
+  {
+    "name": "DASH_SILENCE_ROUTES_LOGGING",
+    "value": "None"
+  },
+  {
+    "name": "DASH_PRUNE_ERRORS",
+    "value": "None"
+  }
+]
