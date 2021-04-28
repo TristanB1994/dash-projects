@@ -10,7 +10,7 @@ services:
       FLASK_ENV: ${FLASK_ENV}
       FLASK_CONFIG: ${FLASK_CONFIG}
       FLASK_APP: ${FLASK_APP}
-    command: ./manage.py dash application/app.py
+      #command: ./manage.py dash application/app.py
     volumes:
       - ${PWD}:/opt/code
     ports:

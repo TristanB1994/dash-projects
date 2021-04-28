@@ -33,7 +33,9 @@ WORKDIR /opt/code
 
 # Pull cached runtime from base container
 COPY --from=BASE /opt/venv /opt/venv 
+COPY ${PWD} /opt/code
 
 # Load environment
 ENV PATH="/opt/venv/bin:$PATH"
 
+CMD ["uwsgi","start.ini"]
