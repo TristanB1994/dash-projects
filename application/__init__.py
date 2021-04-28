@@ -6,6 +6,8 @@ def init_app():
     print(f"init app: {app}")
 
     with app.app_context():
+
+        from . import routes
         
         from .dash_app import init_dash
         app = init_dash(app)

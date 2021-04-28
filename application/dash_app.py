@@ -32,5 +32,15 @@ def init_dash(server):
 
     # server = dash_app.server
     return dash_app.server
+
+def init_callbacks(dash_app):
+    # @dashapp.callback(
+    # callback input/output
+    # )
+    # def update_graph(rows):
+    #   callback logic
+    pass
+
+
 # if __name__ == "__main__":
 #     app.run_server(debug=True, host="0.0.0.0")
